@@ -1488,6 +1488,15 @@ input, select, textarea {
 					#header nav ul li {
 						border-left: 0;
 						border-top: solid 1px #ffffff;
+						width: 100%;
+						display: -moz-flex;
+						display: -webkit-flex;
+						display: -ms-flex;
+						display: flex;
+						-moz-justify-content: center;
+						-webkit-justify-content: center;
+						-ms-justify-content: center;
+						justify-content: center;
 					}
 
 						#header nav ul li:first-child {
